@@ -23,11 +23,13 @@ This is a social networking API built using Django Rest Framework. The API suppo
 1. **Clone the repository:**
 
    git clone https://github.com/AjaykumrReddy/socialnetwork.git
+   
    cd socialnetwork
 
-2. **Run in Local**
+3. **Run in Local**
 
     python3 -m venv venv
+   
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
     pip install -r requirements.txt
@@ -38,11 +40,11 @@ This is a social networking API built using Django Rest Framework. The API suppo
 
     python manage.py runserver
 
-3. **Using Docker**
+5. **Using Docker**
 
     docker-compose up --build
 
-4. **Postman Collection**
+6. **Postman Collection**
 
     A Postman collection for testing the API endpoints is provided. You can import the collection into Postman and test the endpoints.
 
