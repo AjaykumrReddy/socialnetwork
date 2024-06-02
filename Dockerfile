@@ -16,5 +16,6 @@ RUN pip install -r requirements.txt
 # Copy the Django project files
 COPY . /social_network/
 
-# Run migrations and then start the Django development server
-CMD ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]
+RUN python manage.py migrate
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
